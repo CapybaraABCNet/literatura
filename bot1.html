@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Музей А.C. Пушкина: лицей N9</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="img-class">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Pushkin_140-190_for_collage.jpg/500px-Pushkin_140-190_for_collage.jpg" class="img">
+        <h1>Музей А.C. Пушкина: лицей N9</h1>
+        <button command="show-modal" commandfor="plan">Посмотреть план сайта</button>
+        <dialog id="plan" class="text">
+          <h3>План сайта</h3>
+          <a href="index.html">Главная страница</a><br>
+          <a href="bot1.html">Бот</a><br>
+          
+          <a href="com.php">Коментарии к музею</a><br>
+        </dialog>
+      </div>
+    </header>
+    <div class="text">
+      <h2>Бот</h2>
+      <em>Он ответит на все ваши вопросы!</em>
+      <div class="container">
+        <h3>Бот который ответит на ваши вопросы.</h3>
+        <p id="otvet">Тут будет ваш ответ...</p>
+        <br>
+        <div>
+          <button onclick="vopros('Привет! Я бот который ответит на ваши вопросы')">Привет!</button>
+          <button onclick="vopros('Пока')">Пока</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

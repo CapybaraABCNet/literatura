@@ -1,0 +1,74 @@
+body {
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+button {
+    background-color: skyblue;
+    border: none;
+    height: 50px;
+    width: 100px;
+}
+img {
+    width: 250px;
+    border-radius: 15px;
+}
+a {
+    color: green;
+}
+header {
+    background: linear-gradient(135deg, #00aeff, #00f2ff);
+    
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+footer {
+  background: linear-gradient(135deg, #00aeff, #00f2ff);
+
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.logo1 {
+    
+    display: flex;
+    text-align: center;
+}
+.img {
+    border-radius: 75%;
+    width: 150px;
+    margin-right: 20px;
+}
+.container {
+    min-height: 100%;
+            text-align: center;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 400px;
+            margin: 20px auto; 
+        }
+        .text {
+            color: black;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            opacity: 0;
+            transform: translateY(-50px);
+            animation: appear 2s forwards;
+            margin-bottom: 20px;
+        }
+        @keyframes appear {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
