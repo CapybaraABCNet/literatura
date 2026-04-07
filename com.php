@@ -47,7 +47,7 @@ catch (PDOException $e) {
         <button command="show-modal" commandfor="plan">Посмотреть план сайта</button>
         <dialog id="plan" class="text">
           <h3>План сайта</h3>
-          <a href="index.html">Главная страница</a><br>
+          <a href="lit.html">Главная страница</a><br>
           <a href="bot1.html">Бот</a><br>
           
           <a href="com.php">Коментарии к музею</a><br>
